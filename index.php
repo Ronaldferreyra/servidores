@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de servidores web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: #f0f2f5;">
+
+    <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+        <h1 style="color: #333; font-weight: bold;">Tipos de Servidores Web</h1>
+        <p style="color: #666;">Esta es mi investigación sobre servidores</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4" style="margin-bottom: 20px;">
+                <div class="card" style="padding: 15px; border-radius: 10px;">
+                    <h3 style="color: #0d6efd;">Apache Server</h3>
+                    <p><strong>¿Qué es?</strong> Es el servidor más usado y antiguo del mercado.</p>
+                    <p>Funciona con pequeños "módulos" que puedes activar o desactivar según lo que necesite tu página web.</p>
+                    <p style="color: #198754;"><strong>Ventaja:</strong> Es muy fácil de configurar con archivos .htaccess.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="margin-bottom: 20px;">
+                <div class="card" style="padding: 15px; border-radius: 10px;">
+                    <h3 style="color: #0d6efd;">Nginx</h3>
+                    <p><strong>¿Qué es?</strong> Es un servidor enfocado en la velocidad.</p>
+                    <p>Se usa mucho cuando miles de personas entran al mismo tiempo a una página porque no traba la computadora.</p>
+                    <p style="color: #198754;"><strong>Ventaja:</strong> Excelente para imágenes y contenido que no cambia.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="margin-bottom: 20px;">
+                <div class="card" style="padding: 15px; border-radius: 10px;">
+                    <h3 style="color: #0d6efd;">Microsoft IIS</h3>
+                    <p><strong>¿Qué es?</strong> Es el servidor que viene para Windows.</p>
+                    <p>Viene integrado con el sistema operativo y se usa mucho para páginas hechas con lenguajes de Microsoft como .NET.</p>
+                    <p style="color: #198754;"><strong>Ventaja:</strong> Tiene botones y ventanas para mover todo con el mouse.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="margin-bottom: 20px;">
+                <div class="card" style="padding: 15px; border-radius: 10px;">
+                    <h3 style="color: #0d6efd;">LiteSpeed</h3>
+                    <p><strong>¿Qué es?</strong> Un servidor premium súper rápido.</p>
+                    <p>Es como el hermano menor pero más rápido de Apache. Hace que páginas como WordPress carguen volando.</p>
+                    <p style="color: #198754;"><strong>Ventaja:</strong> No tienes que cambiar nada de Apache para usarlo.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="margin-bottom: 20px;">
+                <div class="card" style="padding: 15px; border-radius: 10px;">
+                    <h3 style="color: #0d6efd;">Node.js</h3>
+                    <p><strong>¿Qué es?</strong> No es un servidor tal cual, pero sirve para hacerlos.</p>
+                    <p>Se usa para aplicaciones modernas en tiempo real como chats o juegos donde todo tiene que actualizarse al instante.</p>
+                    <p style="color: #198754;"><strong>Ventaja:</strong> Usas el mismo lenguaje (JavaScript) afuera y adentro.</p>
+                </div>
+            </div>
+    </div>
+
+</body>
+</html>
